@@ -15,9 +15,9 @@ class Video
         $this->visibility = self::PUBLIC;
     }
 
-    public function getVisibility(): int
+    public function isPublic(): bool
     {
-        return $this->visibility;
+        return $this->visibility == self::PUBLIC;
     }
 
     public function getAgeLimit(): int
