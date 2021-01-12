@@ -6,7 +6,7 @@ use Alura\Calisthenics\Domain\Video\Video;
 use DatetimeInterface;
 use Ds\Map;
 
-class WatchedVideo implements \Contable
+class WatchedVideos implements \Countable
 {
     private Map $videos;
     
@@ -17,7 +17,7 @@ class WatchedVideo implements \Contable
 
     public function add(Video $video, DateTimeInterface $date): void
     {
-        $this->watchedVideos->put($video, $date);
+        $this->videos->put($video, $date);
     }
 
     public function count(): int
