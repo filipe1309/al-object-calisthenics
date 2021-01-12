@@ -61,7 +61,7 @@ class Student
             return true;
         }
         
-        $fisrtDate = $this->watchedVideos->dateOfFirstVideo();
+        $firstDate = $this->watchedVideos->dateOfFirstVideo();
         $today = new \DateTimeImmutable();
 
         return $firstDate->diff($today)->days < 90;
