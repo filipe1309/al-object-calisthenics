@@ -17,6 +17,8 @@ composer install
   - Tell, Don't Ask
 - Only One Level Of Indentation Per Method
 - Don’t Use The ELSE Keyword
+- Wrap your prímitive types (if its has behavior)
+- Fisrt class collections
 - One Dot Per Line
   - SOLID Open-Close principle
   - Law Of Demeter  (don't talk with strangers!) http://wiki.c2.com/?LawOfDemeter
